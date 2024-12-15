@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <canvas id="mycanvas" width="450" height ="450" style="border:2px solid"></canvas>
+    <canvas id="mycanvas1" width="450" height ="450" style="border:2px solid"></canvas>
+
+<script>
+
+var c = document.getElementById("mycanvas");
+var ctx = c.getContext("2d");
+
+ctx.fillText("hello",10,70);
+
+
+var c1 = document.getElementById("mycanvas1");
+var ctx1  = c1.getContext("2d");
+
+ctx1.moveTo(0,0);
+ctx1.lineTo(200,100);
+
+</script>
+
+</body>
+</html>
